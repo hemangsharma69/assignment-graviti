@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.svg" width="140px">
+    </a>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 justify-content-center d-flex">
+        <p>Let's calculate <strong>distance</strong> from Google maps</p>
+      </div>
+      <div class="col-md-6 col-12">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <div class="origin">
+              <label for="">Origin</label><br>
+              <div class="origin-input">
+                Mumbai
+              </div>
+              <img src="images/icon.svg" alt="" width="20px">
+            </div>
+            <div class="destination">
+              <label for="">Destination</label><br>
+              <div class="destination-input">
+                Delhi
+              </div>
+              <img src="images/icon.svg" alt="" width="20px">
+            </div>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            <button class="cal-btn" type="submit">Calculator</button>
+          </div>
+          <div class="col-12">
+            <div class="distance">
+              <div>Total Distance is</div>
+              <div><strong>1,427 kms</strong></div>
+            </div>
+            <div class="mt-4 mb-4">
+              The distance between <strong>Mumbai</strong> and <strong>Delhi</strong> is <strong>1,427 kms</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d7474208.627927149!2d70.99391187180844!3d23.835806499463327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra%2C%20India!3m2!1d19.0759837!2d72.8776559!4m5!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi%2C%20India!3m2!1d28.7040592!2d77.10249019999999!5e0!3m2!1sen!2sus!4v1659952571857!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

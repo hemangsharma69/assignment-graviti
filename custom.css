@@ -1,0 +1,69 @@
+body {
+    background: #F4F8FA;
+}
+
+nav {
+    height: 80px;
+    background: #FFF !important;
+}
+
+.navbar-brand {
+    padding:  0 50px;
+    margin: 0;
+}
+
+p {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1B31A8;
+}
+
+.origin-input, .destination-input {
+    background: #FFFFFF;
+    border: transparent !important;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #4D6475;
+    padding: 10px 40px;
+}
+
+.origin, .destination {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.origin img, .destination img {
+    position: absolute;
+    top: 32px;
+    left: 10px;
+}
+
+.cal-btn {
+    color: #fff;
+    background: #1B31A8;
+    border-radius: 32px;
+    border: none !important;
+    padding: 15px 25px;
+}
+
+.distance {
+    background: #FFFFFF;
+    border: transparent !important;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #4D6475;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.distance strong {
+    font-size: 20px;
+    color: #0079FF;
+}
